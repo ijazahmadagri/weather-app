@@ -48,9 +48,50 @@ main {
    
 }
 
-img{
-    width: 600;
-    height: 600;
+#condition_image{
+    width: 400;
+    height: 400;
+}
+
+.card-img{
+    width: 300;
+    height: 300;
 }
 
  
+.card {
+  background-color: #524949;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.image{
+    display: flex;
+    gap: 20px;
+
+}
+
+.description{
+    display: flex;
+    gap: 20px;
+}
+
+.card-img{
+    width: 40px;
+    height: 40px;
+}
+
+.hide{
+    display: none;
+}
